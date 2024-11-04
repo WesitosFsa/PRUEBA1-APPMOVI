@@ -12,7 +12,7 @@ export class AppComponent {
   }
   async mostrarpantallacarga(){
     await SplashScreen.show({
-      autoHide: false,
+      autoHide: true,
       showDuration: 3500
     });
   }
